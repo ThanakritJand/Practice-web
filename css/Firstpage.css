@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+.container nav{
+    background-color: black;
+    height: 110px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+}
+
+.logo h1{
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul li{
+    padding: 10px 30px;
+}
+
+.menu ul li a{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.title{
+    margin: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.title-text{
+    margin: 0 5rem;
+    align-items: center;
+}
+
+.title-text h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.title-text p{
+    padding: 0.5rem 0;
+}
+
