@@ -62,3 +62,30 @@ body{
     padding: 0.5rem 0;
 }
 
+.car-group{
+    background-color: #000;
+    display: flex;
+}
+
+.car-group h3{
+    color: #fff;
+    font-size: 50px;
+    text-decoration: none;
+    margin: 1rem 3rem;
+}
+
+.A-Class{
+    border: 2px solid red;
+    background-color: #fff;
+    border-radius: 5%;
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.A-Class img{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
