@@ -161,3 +161,49 @@ body{
     max-width: 100rem; 
     min-height: 300px; 
 }
+
+.contact{
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    padding: 5rem;
+
+    .left{
+        
+    }
+
+    .right{
+        margin-right: 3rem;
+
+        h2{
+        font-size: 3rem;
+        color: #f4f4f4;
+        font-weight: lighter;
+        text-decoration: underline 2px solid rgb(147, 9, 9);
+        text-underline-offset: 10px;
+        display: flex;
+        justify-content: center;
+        }
+
+        ul{
+            display: flex;
+            align-content: space-between;
+
+            li{
+                padding-top: 1rem;
+                list-style: none;
+                color: #ff0000;
+                font-weight: bolder;
+                -webkit-text-stroke:0.1px black;
+
+                a{
+                    text-decoration: none;
+                    color: #c41818;
+                    font-weight: lighter;
+                }
+            }
+        }
+    }
+}
