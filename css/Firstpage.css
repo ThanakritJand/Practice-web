@@ -6,6 +6,7 @@
 
 body{
     font-family: sans-serif;
+    margin-top: 10rem;  
 }
 .container nav{
     background-color: black;
@@ -15,6 +16,10 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 0 5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 .logo h1{
@@ -60,6 +65,30 @@ body{
 
 .title-text p{
     padding: 0.5rem 0;
+}
+
+.select{
+    display: flex;
+    justify-content: center;
+    gap: 50rem;
+    margin-bottom: 7.5rem;
+
+    a{
+        border: 1px solid black;
+        padding: 1rem;
+        background-color: #b4b4b4;
+        font-size: 1.5rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: none;
+        color: #f4f4f4;
+        font-weight: 500;
+        transition: transform 0.5s ease-in-out ;
+    }
+}
+
+.select a:hover{
+    transform: scale(1.5);
+    background-color: #000;
 }
 
 .car-group{
@@ -202,8 +231,23 @@ body{
                     text-decoration: none;
                     color: #c41818;
                     font-weight: lighter;
+
+                    img{
+                        /* background-color: #ffffff; */
+                        gap: 2rem;
+                        padding: 1rem;
+                        /* color: white; */
+                        width: 5rem;
+                        height: 5rem;
+                        /* border: 0.1px solid white; */
+                        transition: transform 0.1s ease-in-out;
+                    }
                 }
             }
         }
     }
+}
+
+.contact .right ul li a img:hover{
+    transform: scale(1.2);
 }
